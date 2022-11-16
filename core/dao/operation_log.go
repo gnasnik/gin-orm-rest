@@ -7,9 +7,9 @@ import (
 )
 
 func AddOperationLog(ctx context.Context, log *model.OperationLog) error {
-	return query.OperationLog.Create(log)
+	return query.OperationLog.WithContext(ctx).Create(log)
 }
 
 func ListOperationLog(ctx context.Context, offset, limit int) ([]*model.OperationLog, int64, error) {
-	return query.OperationLog.FindByPage(offset, limit)
+	return query.OperationLog.WithContext(ctx).FindByPage(offset, limit)
 }

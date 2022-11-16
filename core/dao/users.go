@@ -6,8 +6,8 @@ import (
 	"github.com/gnasnik/titan-operator/generated/query"
 )
 
-func CreateUser(user *model.User) error {
-	return query.User.Create(user)
+func CreateUser(ctx context.Context, user *model.User) error {
+	return query.User.WithContext(ctx).Create(user)
 }
 
 func GetUserByUsername(ctx context.Context, username string) (*model.User, error) {

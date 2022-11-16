@@ -127,7 +127,7 @@ func loginByPassword(ctx context.Context, username, password string) (interface{
 	}
 
 	if err := bcrypt.CompareHashAndPassword([]byte(user.PassHash), []byte(password)); err != nil {
-		log.Errorf("check password: %v", err)
+		log.Errorf("can't compare hash %s ans password %s: %v", user.PassHash, password, err)
 		return nil, errors.ErrInvalidPassword
 	}
 
