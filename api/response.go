@@ -2,7 +2,7 @@ package api
 
 import (
 	"github.com/gin-gonic/gin"
-	err "github.com/gnasnik/titan-operator/errors"
+	err "github.com/gnasnik/gin-orm-rest/errors"
 	"github.com/pkg/errors"
 )
 

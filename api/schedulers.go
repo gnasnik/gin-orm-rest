@@ -2,8 +2,8 @@ package api
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/gnasnik/titan-operator/core/dao"
-	"github.com/gnasnik/titan-operator/errors"
+	"github.com/gnasnik/gin-orm-rest/core/dao"
+	"github.com/gnasnik/gin-orm-rest/errors"
 	"net/http"
 )
 

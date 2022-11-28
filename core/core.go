@@ -2,9 +2,9 @@ package core
 
 import (
 	"context"
-	"github.com/gnasnik/titan-operator/config"
-	"github.com/gnasnik/titan-operator/core/logger"
-	"github.com/gnasnik/titan-operator/generated/query"
+	"github.com/gnasnik/gin-orm-rest/config"
+	"github.com/gnasnik/gin-orm-rest/core/logger"
+	"github.com/gnasnik/gin-orm-rest/generated/query"
 	"github.com/pkg/errors"
 	"gorm.io/driver/mysql"
 	_ "gorm.io/driver/mysql"

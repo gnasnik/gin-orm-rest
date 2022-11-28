@@ -3,8 +3,8 @@ package logger
 import (
 	"context"
 	"github.com/filecoin-project/pubsub"
-	"github.com/gnasnik/titan-operator/core/dao"
-	"github.com/gnasnik/titan-operator/generated/model"
+	"github.com/gnasnik/gin-orm-rest/core/dao"
+	"github.com/gnasnik/gin-orm-rest/generated/model"
 	logging "github.com/ipfs/go-log/v2"
 )
 

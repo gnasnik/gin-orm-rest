@@ -1,4 +1,4 @@
-module github.com/gnasnik/titan-operator
+module github.com/gnasnik/gin-orm-rest
 
 go 1.17
 

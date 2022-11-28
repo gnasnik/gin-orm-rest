@@ -16,7 +16,7 @@ import (
 
 	"gorm.io/plugin/dbresolver"
 
-	"github.com/gnasnik/titan-operator/generated/model"
+	"github.com/gnasnik/gin-orm-rest/generated/model"
 )
 
 func newOperationLog(db *gorm.DB, opts ...gen.DOOption) operationLog {

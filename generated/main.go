@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gnasnik/titan-operator/config"
+	"github.com/gnasnik/gin-orm-rest/config"
 	"github.com/spf13/viper"
 	"gorm.io/driver/mysql"
 	"gorm.io/gen"

@@ -2,8 +2,8 @@ package dao
 
 import (
 	"context"
-	"github.com/gnasnik/titan-operator/generated/model"
-	"github.com/gnasnik/titan-operator/generated/query"
+	"github.com/gnasnik/gin-orm-rest/generated/model"
+	"github.com/gnasnik/gin-orm-rest/generated/query"
 )
 
 func AddOperationLog(ctx context.Context, log *model.OperationLog) error {

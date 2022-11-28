@@ -3,7 +3,7 @@ package api
 import (
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"github.com/gnasnik/titan-operator/config"
+	"github.com/gnasnik/gin-orm-rest/config"
 	logging "github.com/ipfs/go-log/v2"
 )
 

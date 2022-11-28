@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/gnasnik/titan-operator/api"
-	"github.com/gnasnik/titan-operator/config"
-	"github.com/gnasnik/titan-operator/core"
+	"github.com/gnasnik/gin-orm-rest/api"
+	"github.com/gnasnik/gin-orm-rest/config"
+	"github.com/gnasnik/gin-orm-rest/core"
 	"github.com/spf13/viper"
 	"log"
 	"os"
